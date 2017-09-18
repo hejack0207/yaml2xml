@@ -3,7 +3,7 @@
 from distutils.core import setup
 
 install_requires = [
-    'PyYAML==6.7'
+    'PyYAML(==6.7)'
     ]
 
 setup(name='yaml2xml',
@@ -15,5 +15,5 @@ setup(name='yaml2xml',
       packages=['yaml2xml'],
       package_dir = {'': 'lib'},
       requires=install_requires,
-      scripts=['bin/pysqlcli'],
+      scripts=['bin/yxy'],
      )
